@@ -17,3 +17,6 @@ Now you need to setup project triggers for function "main" (small clock icon in 
 
 This configuration will run autoresponder script every 5 minutes.
 
+## Configuration
+
+By default autoresponder will be enable Mon-Fri between 8am - 8pm. 
