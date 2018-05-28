@@ -119,7 +119,7 @@ function notifySender(thread) {
   GmailApp.sendEmail(
     getSenderEmail(thread), 
     "Smart Auto Responder", 
-    'Hey, Thanks for reaching out, unfortunately I might be already away from my laptop. It is ' + currentTimeString() + ' currently at my timezone. '
+    'Hey, Thanks for reaching me out, unfortunately I might be already away from my laptop. It is ' + currentTimeString() + ' currently at my timezone. '
   + 'If this is something important please ping me at hangouts.'
   + 'If not I will get back to you next business day or maybe sooner. \n'
   + 'This is the only message you will receive today from my auto responder, it won\'t spam you after each message'
