@@ -129,7 +129,7 @@ function notifySender(thread) {
   + 'If you would like to setup smart autoresponder for your account, please visit https://github.com/norzechowicz/google-smart-autoresponder'
   );
   
-  Properties.setProperty(sender.toLowerCase(), sender.toLowerCase()); 
+  Properties.setProperty(getSenderEmail(thread).toLowerCase(), getSenderEmail(thread).toLowerCase()); 
 }
 
 function currentTimeString() {
