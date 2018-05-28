@@ -1,4 +1,4 @@
-# Google Smart Autoreponder Script
+# Google Smart Autoresponder Script
 
 In order to setup smart autoresponder please visit https://script.google.com/, create "New script"
 and copy "responder.gs" code into editor, name your project and save changes. 
