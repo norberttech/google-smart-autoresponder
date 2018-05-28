@@ -19,4 +19,4 @@ This configuration will run autoresponder script every 5 minutes.
 
 ## Configuration
 
-By default autoresponder will be enable Mon-Fri between 8am - 8pm. 
+By default autoresponder will be active from Mon-Fri between 8am - 8pm. 
