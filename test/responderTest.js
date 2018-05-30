@@ -1,10 +1,12 @@
 'use strict';
 
-
 const expect = require('expect.js');
 const main = require('./../src/responder');
 
 describe('Smart Auto Responder', () => {
+    global.Logger = {
+        log: function(message) {}
+    };
 
     it('should delete all properties when its inactive', () => {
 
