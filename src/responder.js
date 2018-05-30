@@ -60,7 +60,6 @@ function main()
             return !wasNotifiedToday(getSenderEmail(thread));
         })
         .forEach(function (thread) {
-            //Logger.debug(getSenderEmail(thread));
             notifySender(thread);
         });
 }
@@ -128,6 +127,8 @@ function wasNotifiedToday(sender)
 
 function notifySender(thread)
 {
+    Logger.log(thread);
+
     GmailApp.sendEmail(
         getSenderEmail(thread),
         "Smart Auto Responder",
@@ -174,7 +175,5 @@ function arrayFind(array, predicate)
 if (typeof module === 'undefined') {
     var module = {exports: {}};
 }
-
-module.exports = main;
 
 module.exports = main;
