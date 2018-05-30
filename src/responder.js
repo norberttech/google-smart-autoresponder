@@ -135,7 +135,7 @@ function notifySender(thread)
         'Hey, Thanks for reaching me out, unfortunately I might be already away from my laptop. It is ' + currentTimeString() + ' currently at my timezone. '
         + 'If this is something important please ping me at hangouts.'
         + 'If not I will get back to you next business day or maybe sooner. \n'
-        + 'This is the only message you will receive today from my auto responder, it won\'t spam you after each message'
+        + 'This is the only message you will receive today from my auto responder, it won\'t spam you after each email.'
         + 'Usually I\'m online between: ' + AUTORESPONDER_END_HOUR + ' - ' + AUTORESPONDER_START_HOUR + ' ' + CalendarApp.getTimeZone() + '\n'
         + 'Thanks for you patience!'
         + '\n\n\n'
